@@ -112,7 +112,7 @@ class Pet{
             this.type = "dead";
             document.body.style.pointerEvents="none";
             window.setTimeout( () => {
-                window.location.reload();},2000); 
+                window.location.reload();},4000); 
         }
     }
 
