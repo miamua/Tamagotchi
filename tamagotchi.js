@@ -110,6 +110,7 @@ class Pet{
             this.comment = `You killed ${this.name}!!`;
             this.commentColor = "red";
             this.type = "dead";
+            document.body.style.pointerEvents="none";
             window.setTimeout( () => {
                 window.location.reload();},2000); 
         }
