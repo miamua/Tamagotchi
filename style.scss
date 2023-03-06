@@ -1,0 +1,22 @@
+#petDiv{
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#actionsBtnDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.redBar{
+    accent-color: red;
+}
